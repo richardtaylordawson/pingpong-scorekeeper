@@ -1,5 +1,5 @@
 # pingpong-scorekeeper
-App created in Objective-C for the iPhone in order to keep track of score for a ping pong game. 
+App created for the iPhone in order to keep track of score for a game of ping pong.
 
 Supports both veritcal and landscape modes.
 
