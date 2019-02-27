@@ -11,18 +11,6 @@
   </p>
 </p>
 
-## Creator
-<a href="https://github.com/richardtaylordawson/">
-  <img src="https://twitter.com/richard_codes/profile_image?size=original" alt="Richard's image" width=72 height=72>
-</a>
-
-[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=@richard_codes)
-[![Twitter Follow](https://img.shields.io/twitter/follow/richard_codes.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=richard_codes)
-[![GitHub followers](https://img.shields.io/github/followers/richardtaylordawson.svg?label=Follow&style=social)](https://github.com/richardtaylordawson/)
-
-## View Project
-![Vertical View](images/verticalview.png) ![Horizontal View](images/horizontalview.png)
-
 ## Status
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/richardtaylordawson/pingpong-scorekeeper.svg)](https://github.com/richardtaylordawson/pingpong-scorekeeper/commits/master)
 [![GitHub Search Hit Counter](https://img.shields.io/github/search/richardtaylordawson/pingpong-scorekeeper/goto.svg)](https://github.com/richardtaylordawson/pingpong-scorekeeper/)
@@ -31,3 +19,6 @@
 [![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/richardtaylordawson/pingpong-scorekeeper.svg)](https://github.com/richardtaylordawson/pingpong-scorekeeper/)
 [![GitHub Top Language](https://img.shields.io/github/languages/top/richardtaylordawson/pingpong-scorekeeper.svg)](https://github.com/richardtaylordawson/pingpong-scorekeeper/)
 [![GitHub Language Count](https://img.shields.io/github/languages/count/richardtaylordawson/pingpong-scorekeeper.svg)](https://github.com/richardtaylordawson/pingpong-scorekeeper/)
+
+## View Project
+![Vertical View](images/verticalview.png) ![Horizontal View](images/horizontalview.png)
