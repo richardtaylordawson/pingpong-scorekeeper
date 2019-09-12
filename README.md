@@ -4,7 +4,7 @@
 ## Credits
 Several projects aided in inspiring this project. Notably they are:
 
-- [Xcode]https://developer.apple.com/xcode/)
+- [Xcode](https://developer.apple.com/xcode/)
 - [Apple SDK's](https://developer.apple.com/documentation/)
 
 ## Things I Learned
