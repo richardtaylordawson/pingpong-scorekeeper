@@ -1,11 +1,26 @@
-name: Update copyright year(s) in license file
+name: Update Copyright Year(s) in License File
 
-on:
-  schedule:
-    - cron: "0 3 1 1 *"
+on: "workflow_dispatch"
 
 jobs:
-  run:
+  update-staging:
     runs-on: ubuntu-latest
     steps:
-      - uses: FantasticFiasco/action-update-license-year@v1
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - uses: FantasticFiasco/action-update-license-year@v2
+      with:
+        branchName: "staging"
+        token: ${{ secrets.TOKEN }}
+  create-production-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: repo-sync/pull-request@v2
+      with:
+        source_branch: "origin/staging"
+        destination_branch: "origin/production"
+        pr_title: "Syncing ${{ github.ref }} into production"
+        pr_assignee: "richardtaylordawson"  
+        github_token: ${{ secrets.TOKEN }}
